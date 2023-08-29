@@ -4,4 +4,6 @@ import config
 from QuizBot import QuizBot
 
 if __name__ == "__main__":
+    quiz_bot = QuizBot()
     quiz_bot.app.run()
+
