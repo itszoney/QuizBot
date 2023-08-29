@@ -1,5 +1,4 @@
 from telegram import InlineQueryResultArticle, InputTextMessageContent
-from telegram #import InlineQueryResultArticle, InputTextMessageContent
 
 class InlineManager:
     def __init__(self, app, formatter, quiz_manager):
