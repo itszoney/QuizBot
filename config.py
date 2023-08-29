@@ -4,8 +4,8 @@ API_HASH = "df2554b54a9eb9e572979b5db2d0cc79"
 
 BOT_TOKEN = "6195545238:AAFdru2wsVwQyKzWsXv2Ltl5YDKIViDX-x4"
 
-MONGO_URI = "mongodb+srv://ghoda:loda@cluster0.fgrpret.mongodb.net/?retryWrites=true&
-w=majority"
+MONGO_URI = ("mongodb+srv://ghoda:loda@cluster0.fgrpret.mongodb.net/?retryWrites=true&
+w=majority") 
 
 MONGO_DB_NAME = "zoney"
 
