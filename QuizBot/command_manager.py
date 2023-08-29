@@ -1,3 +1,6 @@
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import InlineQueryResultArticle, InputTextMessageContent
+import config
 class CommandManager:
     def __init__(self, app, user_manager, chat_manager, quiz_manager, broadcast_manager, logger_manager):
         self.app = app
