@@ -1,5 +1,6 @@
  #Broadcast Manager Module - Copyright (c) 2023 itszoney
 # This module handles broadcasting messages to subscribed users.
+from QuizBot.quiz_bot import QuizBot
 import config
 from QuizBot import QuizBot
 
