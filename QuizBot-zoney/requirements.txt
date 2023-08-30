@@ -1,4 +1,0 @@
-pyrogram
-pymongo
-telebot
-requests
