@@ -4,44 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Love Calculator</title>
   <link rel="stylesheet" href="love.css">
-    
-  </style>
 </head>
 
 <body>
-<div class="cantinar">
-  <header>
-    <h2>LOVE CALCULATIONS</h2>
-  </header>
-  <form>
-  <div class="main">
-    <input type="text" id="name" placeholder="YOUR 💕 NAME"<input type="text" id="lastname" placeholder=" LOVE 💕 NAME">
-    <a href="#" id="button" onclick="LovePercentage(1,101)">SUBMIT</a>
-    <button type="reset" id="reset">RESET</button>
-   </div>
-
-  </form>  <div id="result"></div>
+  <div class="cantinar">
+    <header>
+      <h2>LOVE CALCULATIONS</h2>
+    </header>
+    <form>
+      <div class="main">
+        <input type="text" id="name" placeholder="YOUR 💕 NAME">
+        <input type="text" id="lastname" placeholder=" LOVE 💕 NAME">
+        <a href="#" id="button" onclick="LovePercentage()">SUBMIT</a>
+        <button type="reset" id="reset">RESET</button>
+      </div>
+    </form>
+    <div id="result"></div>
   </div>
-<script>
-
-function LovePercentage(){
-  var name=document.getElementById('name').value
-  var lastname=document.getElementById('lastname').value
-    if(name && lastname){
-      const lovePercentage = Math.floor(Math.random( ) * 101);
-             var result = `${name} and ${lastname}'s love ${lovePercentage}%! ❤️`;
-               document.getElementById("result").textContent = result;
+  <script>
+    function LovePercentage() {
+      var name = document.getElementById('name').value;
+      var lastname = document.getElementById('lastname').value;
+      if (name && lastname) {
+        const lovePercentage = Math.floor(Math.random() * 101);
+        var result = `${name} and ${lastname}'s love is ${lovePercentage}%! ❤️`;
+        document.getElementById("result").textContent = result;
+      } else {
+        alert("Please enter both names!");
+      }
     }
-     else {
-      ("chalaja bsdk");
-     }           
-             
-                  
- }
- 
-</script>
+  </script>
 </body>
 
 </html>
